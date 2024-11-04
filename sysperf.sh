@@ -12,3 +12,5 @@ echo "Disk Utilization"
 df -h | awk '{print$5}' | sed -n 2p
 
 echo "System Perforamnce Checked"
+echo ""
+echo "Job Successfull"
