@@ -1,7 +1,10 @@
-Main c1
-br1 c2
-br1 c3
-
-
-br2 c6
-br2 c7
+#!/bin/bash
+echo "Enter the number"
+read n
+sum=0
+while [ $n -gt 0 ]
+do
+sum=$(($sum + $n))
+n=$(($n-1))
+done
+echo "The sum of n Numbers is $sum"
