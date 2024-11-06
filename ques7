@@ -23,11 +23,11 @@ pipeline {
 				when{
 					anyOf{
 					branch 'main'
-					branch 'Dev'
+					branch 'br1'
 					}
 				}
 			steps {
-				git branch: 'main', url: 'https://github.com/HariGangaiah/java-example.git'
+				git branch: 'main', url: 'https://github.com/HariGangaiah/git1.git'
 			}
 		}
 		stage('Test') {
